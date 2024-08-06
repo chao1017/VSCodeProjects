@@ -18,7 +18,7 @@ namespace isRock.Template
             try
             {
                 //設定ChannelAccessToken
-                this.ChannelAccessToken = "A7sLBq1wo2NWGs/3QpdxwU+xPjOUCa1rDv/pD5A++0VN70eDaE7uxDfQs8+X6ovO1xhFnsrLlivxuBaCaI4MYtG/dnpsCyRVIDcwC98yiZ8GhgzPqWEKZXLrCSNYWgGZ9ooXmtVYSrFjwICh7vz/bwdB04t89/1O/w1cDnyilFU=";
+                this.ChannelAccessToken = "nznvYWhjhyI3E1qJraakPQ3zfLkO3RkS2qgTwrAswQB0POLYk4C9bur+QrbuY5W+1xhFnsrLlivxuBaCaI4MYtG/dnpsCyRVIDcwC98yiZ+m8tDaHAUooGl04XC3QSvSqzqmibmBm4fT2Rp6ORzuTwdB04t89/1O/w1cDnyilFU=";
                 //配合Line Verify
                 if (ReceivedMessage.events == null || ReceivedMessage.events.Count() <= 0 ||
                     ReceivedMessage.events.FirstOrDefault().replyToken == "00000000000000000000000000000000") return Ok();
